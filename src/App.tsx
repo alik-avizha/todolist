@@ -3,20 +3,16 @@ import './App.css';
 import Todolist from "./Todolist";
 
 
-export type TaskType = {
-    id: number,
-    title: string,
-    isDone: boolean
-}
+
 
 function App(): JSX.Element {
 
-    const tasks: Array<TaskType> = [
+    const tasks = [
         {id: 1, title: 'HTML&CSS', isDone: true},
         {id: 2, title: 'CSS&SCSS', isDone: true},
         {id: 3, title: 'ES6/TS', isDone: false}
     ]
-    const tasks1: Array<TaskType> = [
+    const tasks1 = [
         {id: 1, title: 'HTML&CSS', isDone: false},
         {id: 2, title: 'CSS&SCSS', isDone: false},
         {id: 3, title: 'ES6/TS', isDone: false}
