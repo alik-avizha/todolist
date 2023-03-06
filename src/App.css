@@ -8,13 +8,13 @@
 }
 .todolist {
   border: 2px solid hotpink;
-  border-radius: 5px;
+  border-radius: 40px;
   padding: 20px;
-  background-color: green;
+  background-color: peachpuff;
 }
 .todolist-empty {
   border: 2px solid hotpink;
-  border-radius: 5px;
+  border-radius: 40px;
   padding: 20px;
-  background-color: red;
+  background-color: crimson;
 }
